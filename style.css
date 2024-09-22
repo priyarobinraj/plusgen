@@ -1582,10 +1582,6 @@ header {
         }
       }
     }
-    .sidebar.active {
-      left: 0;
-    }
-
     .section2 {
       padding: 50px;
       gap: 10px;
@@ -1640,6 +1636,10 @@ header {
       }
     }
   }
+  .sidebar.active {
+    left: 0 !important;
+  }
+
   .section4 {
     display: flex;
     gap: 0;
