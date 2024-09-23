@@ -1,7 +1,11 @@
-const harmburger = document.getElementById("hamburger");
+const hamburger = document.getElementById("hamburger");
 const sidebar = document.getElementById("sidebar");
 const navLinks = document.getElementById("nav");
+const closeicon = document.getElementById("closeicon");
 
-harmburger.addEventListener("click", () => {
-  sidebar.classList.toggle("active");
+hamburger.addEventListener("click", () => {
+  sidebar.classList.add("active");
+});
+closeicon.addEventListener("click", () => {
+  sidebar.classList.remove("active");
 });
