@@ -1733,7 +1733,7 @@ header {
   .section7 {
     padding-bottom: 0;
     .content {
-      top: 1.6rem;
+      top: 2rem;
       h2 {
         font-size: 6px;
         padding: 2px 0 5px;
@@ -1895,7 +1895,7 @@ header {
       h3 {
         font-size: 18px;
         top: 5%;
-        left: 18%;
+        left: 19%;
       }
       .paragraph {
         padding-top: 14px;
@@ -1907,7 +1907,7 @@ header {
     }
     .section4_3 {
       .imagebox img {
-        max-width: 1000%;
+        max-width: 100%;
       }
     }
   }
@@ -1965,6 +1965,12 @@ header {
     .categories11 {
       flex-direction: column;
       gap: 30px;
+      img {
+        width: 17rem;
+      }
+      .odd {
+        width: 17rem;
+      }
       .js {
         display: grid;
         justify-content: center;
