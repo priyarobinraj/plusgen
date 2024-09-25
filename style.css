@@ -99,7 +99,7 @@ header {
     }
     .hamburger {
       display: none;
-      font-size: 20px;
+      font-size: 27px;
       color: #ffff;
       cursor: pointer;
     }
@@ -1567,11 +1567,11 @@ header {
     overflow: hidden;
     .top {
       .child1 {
-        font-size: 5px;
+        font-size: 6px;
         padding: 5px 0;
       }
       .child2 {
-        font-size: 5px;
+        font-size: 6px;
         padding: 5px 0;
         img {
           width: 5px;
@@ -1581,7 +1581,7 @@ header {
     .section1 {
       .head {
         img {
-          width: 5rem;
+          width: 8rem;
         }
       }
       .navbar {
@@ -1595,12 +1595,13 @@ header {
     }
     .section2 {
       padding: 50px;
-      gap: 10px;
+      gap: 13px;
       p {
-        font-size: 10px;
+        font-size: 13px;
       }
       h1 {
-        font-size: 11px;
+        font-size: 15px;
+        line-height: 1.3;
       }
     }
     .section3 {
@@ -1613,7 +1614,7 @@ header {
         font-size: 20px;
       }
       p {
-        font-size: 8px;
+        font-size: 12px;
         text-align: center;
       }
     }
@@ -1624,11 +1625,21 @@ header {
           display: flex;
           flex-direction: column;
           padding-top: 0;
-          max-width: 100px;
+          max-width: 50%;
           margin: 0 auto;
           .icon1,
           .icon11 {
             padding-top: 1rem;
+          }
+          img {
+            width: 3.5rem;
+          }
+          h3 {
+            font-size: 24px;
+          }
+          p {
+            font-size: 12px;
+            width: 10%;
           }
         }
         .toto {
@@ -1722,7 +1733,7 @@ header {
   .section7 {
     padding-bottom: 0;
     .content {
-      top: 1.9rem;
+      top: 1.6rem;
       h2 {
         font-size: 6px;
         padding: 2px 0 5px;
@@ -1731,11 +1742,11 @@ header {
         font-size: 4.5px;
       }
       .whole {
-        padding-top: 5px;
+        padding-top: 3px;
         .parag3 {
-          font-size: 5px;
-          width: 50%;
-          padding: 10px 12px 10px;
+          font-size: 7px;
+          width: 70%;
+          padding: 9px 10px 10px;
         }
         .p3img {
           display: none;
@@ -1883,20 +1894,20 @@ header {
       }
       h3 {
         font-size: 18px;
-        top: 7%;
-        left: 19%;
+        top: 5%;
+        left: 18%;
       }
       .paragraph {
         padding-top: 14px;
         .parag1,
         .parag2 {
-          font-size: 9px;
+          font-size: 11px;
         }
       }
     }
     .section4_3 {
       .imagebox img {
-        max-width: 80%;
+        max-width: 1000%;
       }
     }
   }
@@ -1940,11 +1951,11 @@ header {
       margin: 0 auto;
       ul {
         padding: 0px;
-        gap: 15px;
+        gap: 10px;
         justify-content: center;
         li {
           a {
-            font-size: 5px;
+            font-size: 6px;
           }
         }
       }
@@ -1973,5 +1984,21 @@ header {
   }
   .cate7 {
     padding-bottom: 20px;
+  }
+  .top {
+    white-space: nowrap;
+    overflow: hidden;
+    position: relative;
+    animation: moveRight linear infinite;
+    animation-duration: 10s;
+    animation-delay: 0s;
+  }
+  @keyframes moveRight {
+    0% {
+      transform: translateX(-100%);
+    }
+    100% {
+      transform: translateX(100%);
+    }
   }
 }
