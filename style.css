@@ -149,15 +149,15 @@ header {
     z-index: 10;
     ul {
       list-style-type: none;
-      padding-top: 5rem;
+      padding-top: 7rem;
       display: flex;
       flex-direction: column;
-      gap: 20px;
+      gap: 30px;
       align-items: center;
     }
     ul li {
       img {
-        width: 2rem;
+        width: 3rem;
       }
     }
     ul li a {
@@ -165,7 +165,7 @@ header {
       color: #ffff;
       text-decoration: none;
       display: block;
-      font-size: 10px;
+      font-size: 18px;
       &::after {
         content: "";
         position: absolute;
@@ -181,7 +181,7 @@ header {
       }
     }
     .closeicon {
-      font-size: 18px;
+      font-size: 27px;
       color: #ffff;
       cursor: pointer;
       position: absolute;
@@ -1894,8 +1894,8 @@ header {
       }
       h3 {
         font-size: 18px;
-        top: 5%;
-        left: 19%;
+        top: 6%;
+        left: 21%;
       }
       .paragraph {
         padding-top: 14px;
