@@ -1233,7 +1233,7 @@ header {
   }
 }
 .section9_4 {
-  .top {
+  .topss {
     display: flex;
     flex-direction: column;
     text-align: center;
@@ -1560,18 +1560,19 @@ header {
     gap: 40px;
   }
   .container1,
-  .container5 {
+  .container5,
+  .container4 {
     padding-inline: 15px;
     margin: auto;
     font-family: "Roboto", sans-serif;
     overflow: hidden;
     .top {
       .child1 {
-        font-size: 6px;
+        font-size: 7px;
         padding: 5px 0;
       }
       .child2 {
-        font-size: 6px;
+        font-size: 7px;
         padding: 5px 0;
         img {
           width: 5px;
@@ -1799,7 +1800,7 @@ header {
             padding: 8px;
             border-radius: 12px;
             font-size: 15px;
-            left: 11rem;
+            left: 11.6rem;
           }
         }
         .parag1 {
@@ -1999,7 +2000,7 @@ header {
     overflow: hidden;
     position: relative;
     animation: moveRight linear infinite;
-    animation-duration: 10s;
+    animation-duration: 15s;
     animation-delay: 0s;
   }
   @keyframes moveRight {
@@ -2009,5 +2010,17 @@ header {
     100% {
       transform: translateX(100%);
     }
+  }
+
+  /*HOME PAGE*/
+  .homepage {
+    padding-inline: 15px;
+    margin: auto;
+  }
+  .homehead {
+    height: 40vh;
+    width: 150%;
+  }
+  .container4 {
   }
 }
