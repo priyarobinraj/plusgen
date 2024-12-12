@@ -2013,14 +2013,7 @@ header {
   }
 
   /*HOME PAGE*/
-  .homepage {
-    padding-inline: 15px;
-    margin: auto;
-  }
-  .homehead {
-    height: 40vh;
-    width: 150%;
-  }
   .container4 {
+    overflow: visible;
   }
 }
